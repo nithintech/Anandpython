@@ -1,0 +1,13 @@
+import sys
+print "enter the limit"
+lim=sys.argv[1]
+x=range(lim)
+new=[]
+def fibnocci(x):
+	k=0
+	for i in x:
+		k=k+i
+		new.append(k)
+		print new
+fibnocci()
+		

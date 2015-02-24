@@ -1,0 +1,6 @@
+n1=input("enter num1:")
+n2=input("enter num2:")
+def add(n1,n2):
+	sum1=n1+n2
+	print sum1
+add(n1,n2)

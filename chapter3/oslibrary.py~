@@ -1,0 +1,5 @@
+import os
+def files():
+        for i in os.walk('/home/us/nithinpython/chapter3'):
+                print i
+files()    

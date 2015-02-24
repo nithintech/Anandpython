@@ -1,0 +1,14 @@
+def flatten(a,re=None):
+	if re is None:
+        	re={}
+  	for i in a:
+    		if isinstance(a[i],dict):
+      			for i in a[i]:
+        			b[i+'.'+i]=a[i][i]
+      			flatten(b,re)
+    		else:
+      			re[i]=a[i]
+  	return re
+b={}
+dic=flatten({'a':1,'b':{'p':2,'q':3},'c':4})
+print dic

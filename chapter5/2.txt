@@ -1,0 +1,2 @@
+if statement can have optional elif clauses when there are more conditions to be checked. 
+The elif keyword is short for else if, and is useful to avoid excessive indentation.

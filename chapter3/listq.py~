@@ -1,0 +1,7 @@
+k=[]
+def listq(list):
+	for i in list:
+		if i%3==0 and i%5==0 and i%7:
+			k.append(i)
+	print k
+listq([34,45,36,49,21,15])

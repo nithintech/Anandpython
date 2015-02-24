@@ -1,0 +1,15 @@
+import os
+p=os.listdir('/media/CLASSMATES')
+for i in p:
+	if os.path.isdir(i):
+		print "------- ",i
+		t=os.listdir(i)
+		for j in t:
+			print '|',8*'_',j
+	else:print i
+	#lis=os.listdir(p)
+	#print lis
+	#for i in lis:
+	#	lis2=os.listdir(i)
+	#	print lis2
+#direct('/home/us/nithinpython')

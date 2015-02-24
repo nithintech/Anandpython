@@ -1,0 +1,165 @@
+problem 4:What will be the output
+
+x = 4
+y = x + 1
+x = 2
+print x, y
+
+output:
+
+2 5
+
+
+problem 5:What will be the output
+
+x, y = 2, 6
+x, y = y, x + 2
+print x, y
+
+output:
+
+6 4
+
+problem 6:What will be the output
+
+a, b = 2, 3
+c, b = a, c + 1
+print a, b, c
+
+output:
+
+Traceback (most recent call last):
+  File "1111.py", line 2, in <module>
+    c, b = a, c + 1
+NameError: name 'c' is not defined
+
+
+Problem 7: How many multiplications are performed when each of the following lines of code is executed?
+
+print square(5)------------->1
+print square(2*5)----------->2
+
+Problem 8: What will be the output
+
+x = 1
+def f():
+    return x
+print x
+print f()
+
+output
+
+1
+1
+
+problem 9: What will be the output
+
+x = 1
+def f():
+    x = 2
+    return x
+print x
+print f()
+print x
+
+output
+
+1
+2
+1
+
+Problem 10: What will be the output
+x = 1
+def f():
+        y = x
+        x = 2
+        return x + y
+print x
+print f()
+print x
+
+
+output:
+
+1
+Traceback (most recent call last):
+  File "1111.py", line 7, in <module>
+    print f()
+  File "1111.py", line 3, in f
+    y = x
+UnboundLocalError: local variable 'x' referenced before assignment
+
+problem 11:
+
+x = 2
+def f(a):
+    x = a * a
+    return x
+y = f(3)
+print x, y
+
+
+output
+
+2 9
+
+problem14
+
+print 2 < 3 and 3 > 1
+print 2 < 3 or 3 > 1
+print 2 < 3 or not 3 > 1
+print 2 < 3 and not 3 > 1
+
+output:
+
+True
+True
+True
+False
+
+problem15:
+
+x = 4
+y = 5
+p = x < y or x < z
+print p
+
+output:
+
+True
+
+
+problem 16:
+
+True, False = False, True
+print True, False
+print 2 < 3
+
+output:
+False True
+True
+
+problem 17
+
+x = 2
+if x == 2:
+    print x
+else:
+    print y
+
+output:
+2
+
+
+problem 18:
+
+x = 2
+if x == 2:
+    print x
+else:
+    x++
+
+output:
+x+
+     ^
+SyntaxError: invalid syntax

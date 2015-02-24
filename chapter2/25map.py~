@@ -1,0 +1,4 @@
+def cube(a):
+	print a*a*a
+map(cube,range(10))
+

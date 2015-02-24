@@ -1,0 +1,9 @@
+x=[1,2,3,4]
+b=[]
+def rev(x):
+	j=-1
+	for i in x:
+		b.append(x[j])
+		j=j-1
+	print b
+rev(x)

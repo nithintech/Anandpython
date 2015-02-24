@@ -1,0 +1,6 @@
+x=["hello","world"]
+def sumliststr(x):
+	for i in x:
+		y=x[i]+x[i+1]
+	print y
+sumliststr(x) 

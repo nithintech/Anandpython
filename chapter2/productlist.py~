@@ -1,0 +1,7 @@
+def prodlist(x):
+        y=0
+        for i in x:
+                y=y*i
+        print y
+prodlist(x)
+
